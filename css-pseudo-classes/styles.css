@@ -1,0 +1,30 @@
+.button1:hover {
+  background-color: black;
+  color: white;
+}
+
+.t1 th:nth-child(n+1) {
+  background-color: black;
+  color: white;
+}
+
+.t2 td:nth-child(n+1) {
+  background-color: lightgrey;
+}
+
+.t3 td:nth-child(n+1) {
+  background-color: white;
+  c
+}
+
+.t4 td:nth-child(n+1) {
+  background-color: lightgrey;
+}
+
+.t5 td:nth-child(n+1) {
+  background-color: white;
+}
+
+.t6 td:nth-child(n+1) {
+  background-color: lightgrey;
+}
