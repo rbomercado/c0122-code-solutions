@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Brandon Grotesque", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+
+form {
+  width: 50%;
+  margin: auto;
+}
+
+.header1 {
+  text-align: center;
+  color: rgb(235 99 92);
+}
+
+select {
+  width: 100%;
+  border-radius: 5px;
+  background-color: rgb(243 243 243);
+  padding: 5px;
+  margin: 5px;
+  border-color: rgb(234 235 235);
+}
+
+input {
+  width: 100%;
+  border-radius: 5px;
+  border-color: rgb(234 235 235);
+  border-style: solid;
+  padding: 5px;
+  margin: 5px;
+}
+
+label {
+  text-align: center;
+}
+
+.buttontext-right {
+  text-align: right;
+}
+
+button {
+  background-color: rgb(235 99 92);
+  border: none;
+  color: white;
+  border-radius: 15px;
+  margin: 10px;
+  padding: 8px 15px;
+}
