@@ -18,13 +18,12 @@ html {
   display: flex;
 }
 
-.column-full {
-  width: 100%;
-  padding: 50px 0 40px;
+.column {
+  display: flex;
 }
 
-.column-one-third {
-  width: calc(100% / 3);
+.column-one-thirds {
+  flex-wrap: wrap;
 }
 
 .circle {
