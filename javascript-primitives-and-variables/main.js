@@ -2,7 +2,7 @@ var fullName = 'Richard Bo Mercado';
 var isCool = true;
 var totalPets = 1;
 var unknown = null;
-var never = '';
+var never;
 
 console.log('Value of fullName:' + ' ' + fullName);
 console.log('Value of isCool:' + ' ' + isCool);
@@ -16,4 +16,4 @@ console.log('value of unknown:' + ' ' + unknown);
 console.log('typeof unknown:' + ' ' + typeof unknown);
 
 console.log('value of never:' + ' ' + never);
-console.log('type of never:' + ' ' + typeof never);
+console.log('typeof never:' + ' ' + typeof never);
