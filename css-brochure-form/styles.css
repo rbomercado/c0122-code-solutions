@@ -4,7 +4,7 @@
 
 form {
   margin: auto;
-  max-width: 800px;
+  max-width: 70%;
 }
 
 .header1 {
@@ -17,7 +17,7 @@ form {
 }
 
 .align-center {
-  padding-left: 150px;
+  padding-left: ;
 }
 
 select {
@@ -27,14 +27,14 @@ select {
   margin: 7px;
   border-color: rgb(165 172 172);
   border-width: thin;
-  width: 60%;
+  width: 90%;
   font-family: "Brandon Grotesque", sans-serif;
   font-style: normal;
   font-weight: 500;
 }
 
 input {
-  width: 60%;
+  width: 90%;
   border-radius: 5px;
   border-color: rgb(225 231 231);
   border-style: solid;
@@ -59,8 +59,8 @@ label {
 }
 
 .buttontext-right {
-  padding-left: 210px;
-  text-align: center;
+  text-align: right;
+  padding-right: 50px;
 }
 
 button {
