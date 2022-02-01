@@ -13,8 +13,8 @@ var vehicle = {
   year: '2019'
 };
 
-vehicle.color = 'silver';
-vehicle.isConvertible = false;
+vehicle['color'] = 'silver';
+vehicle['isConvertable'] = false;
 
 var pet = {
   name: 'Bailey',
@@ -28,8 +28,8 @@ console.log('value of student.livesInIrvine:' + ' ' + student.livesInIrvine);
 console.log('value of student.previousOccupation:' + student.previousOccupation);
 console.log(' value of student:', student);
 
-console.log('value of vehicle:' + ' ' + vehicle.color);
-console.log('value of vehicle:' + ' ' + vehicle.isConvertible);
+console.log('value of vehicle color:', vehicle.color);
+console.log('value of vehicle isConvertable:', vehicle.isConvertable);
 console.log(' value of vehicle:', vehicle);
 
 console.log(' value of pet:', pet);
