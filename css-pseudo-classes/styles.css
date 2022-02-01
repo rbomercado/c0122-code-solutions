@@ -1,0 +1,13 @@
+.button1:hover {
+  background-color: black;
+  color: white;
+}
+
+table.stripes-table thead > tr {
+  color: white;
+  background-color: black;
+}
+
+table.stripes-table tbody > tr:nth-child(odd) {
+  background-color: lightgrey;
+}
