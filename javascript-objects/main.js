@@ -14,6 +14,7 @@ var vehicle = {
 };
 
 vehicle['color'] = 'silver';
+
 vehicle['isConvertable'] = false;
 
 var pet = {
