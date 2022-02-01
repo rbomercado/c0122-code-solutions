@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> html-forms</title>
+</head>
+<body>
+  <h1>Coding Form!</h1>
+  <form>
+    <div>
+      <label for="Email">Email:</label><br>
+    </div>
+    <input type="text" id="Email" name="Email"/>
+
+
+    <div>
+      <br>
+      <label for="Why is Coding Cool?"> Why is Coding cool?</label><br>
+      <select name="reasons" id="whyreasons">
+        <option value="">Select an option</option>
+        <option value="becauseItsInteresting">Becuase its interesting</option>
+        <option value="becauseItsAwesome">Because its awesome</option>
+        <option value="becuaseItsFun">Becuase its fun</option>
+      </select>
+    </div>
+
+    <p>Favorite Language(choose one)</p>
+    <div>
+      <input type="radio" id="HTML" name="language" value="HTML">
+      <label for="HTML">HTML</label>
+      <input type="radio" id="css" name="language" value="css">
+      <label for="css">CSS</label>
+      <input type="radio" id="javaScript" name="language" value="javaScript">
+      <label for="javaScript">JavaScript</label>
+    </div>
+    <br>
+    <div> Would you like to sign up for more information?<br>
+      <input type="checkbox" id="signUp" name="signUp">
+      <label for="signUp">Sign me up!</label>
+    </div>
+    <br>
+    <div>
+      <label for="comments">Comments:</label><br>
+      <textarea id="comments" name="comments">Enter comments</textarea>
+      <br> <input type="submit" value="submit">
+    </div>
+  </form>
+</body>
+</html>
