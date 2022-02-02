@@ -16,10 +16,6 @@ form {
   margin-right: 59px;
 }
 
-.align-center {
-  padding-left: ;
-}
-
 select {
   border-radius: 5px;
   background-color: rgb(243 243 243);
@@ -52,10 +48,6 @@ label {
   font-weight: 500;
   color: black;
   font-size: 14px;
-}
-
-.align-center-right {
-  width: 50%;
 }
 
 .buttontext-right {
