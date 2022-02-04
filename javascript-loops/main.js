@@ -52,9 +52,8 @@ console.log('logEachCharacter', logEachCharacter('Bo Mercado'));
 
 function doubleAll(numbers) {
   var doubled = [];
-  for (var i = 0; i <= numbers.length - 1; i++) {
-    console.log(numbers[i] *= 2);
-    doubled.push(numbers);
+  for (var i = 0; i < numbers.length; i++) {
+    doubled.push(numbers[i] *= 2);
   }
   return doubled;
 }
@@ -63,8 +62,7 @@ console.log('doubleAll', doubleAll([1, 4, 6]));
 function getKeys(object) {
   var keys = [];
   for (var key in object) {
-    console.log(`${key}`);
-    keys.push(object);
+    keys.push(key);
   }
   return keys;
 }
@@ -73,9 +71,8 @@ console.log('getKeys', getKeys(myName));
 
 function getValues(object) {
   var values = [];
-  for (var obj in object) {
-    console.log(`${object[obj]}`);
-    values.push(obj);
+  for (var key in object) {
+    values.push(object[key]);
   }
   return values;
 }
