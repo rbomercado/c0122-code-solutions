@@ -78,9 +78,5 @@ function introduceWarnerBro(name) {
     return ('were the warner brothers!');
   } else if (name === 'dot') {
     return ('Im cute');
-  } else if (name === 'cody') {
-    return ('Goodnight everybody!');
-  } else if (name === 'minerva') {
-    return ('Goodnight everybody!');
-  }
+  } else { return ('Goodnight everybody'); }
 }
