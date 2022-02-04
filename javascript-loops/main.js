@@ -61,6 +61,7 @@ console.log('doubleAll', doubleAll([1, 4, 6]));
 
 function getKeys(object) {
   var keys = [];
+
   for (var key in object) {
     keys.push(key);
   }
