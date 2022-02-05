@@ -1,7 +1,7 @@
 .container {
   width: 100%;
   margin: auto;
-  max-width: 1300px;
+  max-width: 1200px;
 }
 
 .row {
@@ -43,14 +43,21 @@ h2 {
   padding-right: 5px;
   font-family: Avenir, sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 550;
 }
 
 .font-a {
   font-family: Avenir, sans-serif;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 500;
   font-size: 20px;
+}
+
+#font-ready {
+  font-family: "Tiempos Headline", sans-serif;
+  font-style: normal;
+  font-weight: 575;
+  font-size: 25px;
 }
 
 .font-a-big {
@@ -66,9 +73,12 @@ h2 {
 
 .font-abs1 {
   position: absolute;
-  top: 50px;
+  top: 40px;
   padding-left: 40px;
   width: 55%;
+  font-family: "Tiempos Headline", sans-serif;
+  font-style: normal;
+  font-weight: 575;
 }
 
 .font-abs2 {
@@ -85,6 +95,9 @@ h2 {
 
 .sch-font {
   font-size: 15px;
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 600;
 }
 
 .row5a {
@@ -227,7 +240,7 @@ header {
 }
 
 .dark-grey-text {
-  color: rgb(116 110 110);
+  color: rgb(119 112 112);
 }
 
 .row-4-marg {
@@ -244,7 +257,7 @@ footer {
 }
 
 .overlay {
-  background: linear-gradient(transparent, rgb(0 0 0 / 32.9%));
+  background: linear-gradient(transparent, rgb(0 0 0 / 40.9%));
   position: absolute;
   top: 0;
   bottom: 0;
@@ -290,4 +303,5 @@ footer {
 
 .col-10 {
   max-width: 100%;
+}
 }
