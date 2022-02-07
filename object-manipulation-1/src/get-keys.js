@@ -8,6 +8,7 @@ in array
 add values to new array
 give final values in new array
 */
+
 function getKeys(object) {
   var keys = [];
   for (var key in object) {
