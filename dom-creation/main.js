@@ -82,7 +82,7 @@ function renderPokemon(pokemon) {
   pokeText.appendChild(header2);
 
   var header3 = document.createElement('h3');
-  var header3Text = document.createTextNode(pokemon.number);
+  var header3Text = document.createTextNode('#' + pokemon.number);
   header3.appendChild(header3Text);
   pokeText.appendChild(header3);
 
