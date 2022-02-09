@@ -10,28 +10,19 @@
   width: 100%;
 }
 
-.row5 {
-  padding-top: 50px;
-}
-
-.img1-canvas {
+.img1-canvas-marg {
   margin-top: 30px;
+  max-width: 30%;
 }
 
-.row-1 {
-  flex-direction: column;
-  width: 100%;
-  padding-top: 50px;
-  padding-left: 50px;
-}
-
-.clin {
+.row-3-padding {
   padding-top: 50px;
   padding-bottom: 70px;
 }
 
 .clin-marg {
   padding-top: 60px;
+  margin-left: 15%;
 }
 
 h2 {
@@ -46,32 +37,35 @@ h2 {
   font-weight: 550;
 }
 
-.font-a {
+.font-avenir-normal {
   font-family: Avenir, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
 }
 
-#font-ready {
-  font-family: "Tiempos Headline", sans-serif;
+.font-avenir-normal-small {
+  font-family: Avenir, sans-serif;
   font-style: normal;
-  font-weight: 575;
-  font-size: 25px;
+  font-weight: 500;
+  font-size: 14px;
 }
 
-.font-a-big {
+.font-avenir-normal-medium {
+  font-family: Avenir, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.font-tiempos-big {
   font-family: "Tiempos Headline", sans-serif;
   font-style: normal;
   font-weight: 575;
   font-size: 32px;
 }
 
-.font-size-large {
-  font-size: 40px;
-}
-
-.font-abs1 {
+.font-largest-abs {
   position: absolute;
   top: 40px;
   padding-left: 40px;
@@ -79,9 +73,10 @@ h2 {
   font-family: "Tiempos Headline", sans-serif;
   font-style: normal;
   font-weight: 575;
+  font-size: 40px;
 }
 
-.font-abs2 {
+.font-abs {
   position: absolute;
   bottom: 120px;
   left: 40px;
@@ -89,18 +84,29 @@ h2 {
   font-size: 19px;
 }
 
-.font-abs3 {
+.button-abs {
   position: absolute;
 }
 
-.sch-font {
+#sch-font {
   font-size: 15px;
   font-family: Avenir, sans-serif;
   font-style: normal;
   font-weight: 600;
 }
 
-.row5a {
+#ready-font {
+  font-family: "Tiempos Headline", sans-serif;
+  font-style: normal;
+  font-weight: 575;
+  font-size: 25px;
+}
+
+.row5 {
+  padding-top: 50px;
+}
+
+.padding-row5 {
   padding-top: 70px;
   padding-bottom: 80px;
   padding-right: 50px;
@@ -111,14 +117,18 @@ h2 {
 }
 
 .contact-button {
-  padding: 12px 20px;
+  padding: 10px 18px;
   border-radius: 6px;
   margin-right: 15px;
   border: none;
 }
 
-.row1 {
+.row1-marg {
   margin-right: 25px;
+}
+
+.get-started-button-padding {
+  padding-left: 50px;
 }
 
 .button-back-color {
@@ -142,16 +152,10 @@ h2 {
   left: 20px;
 }
 
-.p1 {
-  font-family: Avenir, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-}
-
 .marg-sf {
   padding-top: 20px;
   margin-top: 20px;
+  max-width: 40%;
 }
 
 .get-started-button {
@@ -163,7 +167,7 @@ h2 {
 }
 
 .get-started-button2 {
-  padding: 12px 35px;
+  padding: 18px 50px;
   border-radius: 6px;
   border: none;
 }
@@ -198,14 +202,9 @@ header {
 }
 
 .col-1,
-.col-2,
-.col-3,
 .col-4,
 .col-5,
 .col-6,
-.col-7,
-.col-8,
-.col-9,
 .col-10, {
   position: relative;
   margin-right: 1%;
@@ -231,7 +230,7 @@ header {
   background-color: rgb(111 112 109);
 }
 
-.footer {
+.footer-font {
   padding: 30px;
   font-family: Avenir, sans-serif;
   font-style: normal;
@@ -244,16 +243,13 @@ header {
 }
 
 .row-4-marg {
-  padding-right: 60px;
-  padding-left: 100px;
   margin-top: 20px;
   margin-bottom: 20px;
-  margin-left: 20px;
 }
 
-footer {
-  padding-left: 50px;
-  margin-left: 50px;
+.row-3-margin {
+  padding-right: 30%;
+  padding-left: 30%;
 }
 
 .overlay {
@@ -266,42 +262,22 @@ footer {
 }
 
 .col-1 {
-  max-width: 10%;
-}
-
-.col-2 {
-  max-width: 20%;
-}
-
-.col-3 {
-  max-width: 30%;
+  width: 15%;
+  margin-left: 5%;
 }
 
 .col-4 {
-  max-width: 40%;
+  width: 40%;
 }
 
 .col-5 {
-  max-width: 50%;
+  width: 50%;
 }
 
 .col-6 {
-  max-width: 60%;
-}
-
-.col-7 {
-  max-width: 70%;
-}
-
-.col-8 {
-  max-width: 80%;
-}
-
-.col-9 {
-  max-width: 90%;
+  width: 60%;
 }
 
 .col-10 {
-  max-width: 100%;
-}
+  width: 100%;
 }
