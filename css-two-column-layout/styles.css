@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: auto;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.row {
+  font-family: Karla, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  display: flex;
+}
+
+img-padding {
+  padding-bottom: 60px;
+  padding-top: 20px;
+}
+
+.biggest-text {
+  font-size: 72px;
+  font-family: Karla, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.margin-top {
+  padding-bottom: 40px;
+  margin-top: 70px;
+}
+
+p {
+  font-family: Karla, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: rgb(73 72 72);
+  font-size: 20px;
+}
+
+h1,
+h3 {
+  font-family: Karla, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.button-marg {
+  margin-top: 40px;
+  text-align: center;
+}
+
+button {
+  border: solid;
+  border-color: rgb(210 80 73);
+  background-color: white;
+  border-width: 3px;
+  color: rgb(210 80 73);
+  padding: 10px 50px;
+  font-family: Karla, sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.col-4 {
+  max-width: 40%;
+}
+
+.col-half {
+  width: 50%;
+}
+
+.col-6 {
+  max-width: 60%;
+}
+
+.col-9 {
+  max-width: 90%;
+  margin-left: 8%;
+}
+
+.col-10 {
+  max-width: 100%;
+}
