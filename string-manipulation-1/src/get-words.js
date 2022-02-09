@@ -1,10 +1,19 @@
 /* exported getWords */
 /*
 make a function that splits a string based on spaces and commas
-input is a string
-output and retrive the array of strings with oriignal string split
+input is a string or empty string
+output is a string
+retrive the array of strings with oriignal string split at ''
+if input is an empty string string need to return an empty array
+if not split at ''
 
 */
+
 function getWords(string) {
-  return string.split(/[' ','']/);
+  var array = [];
+  if (string !== '') {
+    return string.split(' ');
+  } else {
+    return array;
+  }
 }
