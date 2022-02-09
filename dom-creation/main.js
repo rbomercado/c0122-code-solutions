@@ -58,23 +58,21 @@ var pokedex = [
 ];
 
 function renderPokemon(pokemon) {
-  var position = document.querySelector('.row');
 
   var oneThird = document.createElement('div');
   oneThird.className = 'column-third';
-  position.appendChild(oneThird);
 
-  var pokemonCardDiv = document.createElement('div');
-  pokemonCardDiv.className = 'pokemon-card';
-  oneThird.appendChild(pokemonCardDiv);
+  var pokeCardDiv = document.createElement('div');
+  pokeCardDiv.className = 'pokemon-card';
+  oneThird.appendChild(pokeCardDiv);
 
   var pokeImg = document.createElement('img');
   pokeImg.setAttribute('src', pokemon.imageUrl);
-  pokemonCardDiv.appendChild(pokeImg);
+  pokeCardDiv.appendChild(pokeImg);
 
   var pokeText = document.createElement('div');
   pokeText.className = 'pokemon-card-text';
-  pokemonCardDiv.appendChild(pokeText);
+  pokeCardDiv.appendChild(pokeText);
 
   var header2 = document.createElement('h2');
   var header2Text = document.createTextNode(pokemon.name);
