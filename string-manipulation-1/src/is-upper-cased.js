@@ -9,10 +9,8 @@ retireve true or false
 */
 function isUpperCased(word) {
   var words = false;
-  for (var i = 0; i < word.length; i++) {
-    if (word === word.toUpperCase()) {
-      words = true;
-    }
+  if (word === word.toUpperCase()) {
+    words = true;
   }
   return words;
 }

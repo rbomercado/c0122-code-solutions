@@ -8,10 +8,8 @@ retireve true or false
 */
 function isLowerCased(word) {
   var words = false;
-  for (var i = 0; i < word.length; i++) {
-    if (word === word.toLowerCase()) {
-      words = true;
-    }
+  if (word === word.toLowerCase()) {
+    words = true;
   }
   return words;
 }

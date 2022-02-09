@@ -8,14 +8,10 @@ retireve value as true or false
 */
 
 function isVowel(char) {
+  var lowerChar = char.toLowerCase();
   var vowel = false;
-  for (var i = 0; i < char.length; i++) {
-    // eslint-disable-next-line eqeqeq
-    if (char === 'e' || char === 'A' || char === 'a' || char === 'E' ||
-    char === 'I' || char === 'i' || char === 'o' || char === 'O' || char === 'u' || char === 'U') {
-      vowel = true;
-    }
+  if (lowerChar === 'e' || lowerChar === 'a' || lowerChar === 'i' || lowerChar === 'o' || lowerChar === 'u') {
+    vowel = true;
   }
   return vowel;
-
 }
