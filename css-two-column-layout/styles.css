@@ -13,7 +13,6 @@
   font-style: normal;
   font-weight: bold;
   display: flex;
-  padding-left: 30px;
 }
 
 img-padding {
@@ -71,18 +70,6 @@ button {
   font-weight: bold;
 }
 
-.col-1 {
-  max-width: 10%;
-}
-
-.col-2 {
-  max-width: 20%;
-}
-
-.col-3 {
-  max-width: 30%;
-}
-
 .col-4 {
   max-width: 40%;
 }
@@ -93,14 +80,6 @@ button {
 
 .col-6 {
   max-width: 60%;
-}
-
-.col-7 {
-  max-width: 70%;
-}
-
-.col-8 {
-  max-width: 80%;
 }
 
 .col-9 {
