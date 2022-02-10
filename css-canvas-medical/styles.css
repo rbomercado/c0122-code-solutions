@@ -1,0 +1,238 @@
+.container {
+  width: 100%;
+  margin: auto;
+  max-width: 1200px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.row-3-padding {
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+
+.clin-marg {
+  padding-top: 60px;
+  margin-left: 15%;
+}
+
+h2 {
+  padding-left: 5px;
+}
+
+.font-avenir-normal {
+  font-family: Avenir, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.font-avenir-normal-small {
+  font-family: Avenir, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.font-avenir-normal-medium {
+  font-family: Avenir, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.font-tiempos-big {
+  font-family: "Tiempos Headline", sans-serif;
+  font-weight: 575;
+  font-size: 32px;
+}
+
+.font-largest-abs {
+  position: absolute;
+  top: 40px;
+  padding-left: 40px;
+  width: 55%;
+  font-family: "Tiempos Headline", sans-serif;
+  font-weight: 575;
+  font-size: 40px;
+}
+
+.font-abs {
+  position: absolute;
+  bottom: 120px;
+  left: 40px;
+  width: 55%;
+  font-size: 19px;
+}
+
+.sch-font {
+  font-size: 15px;
+  font-family: Avenir, sans-serif;
+  font-weight: 600;
+}
+
+.ready-font {
+  font-family: "Tiempos Headline", sans-serif;
+  font-weight: 575;
+  font-size: 25px;
+}
+
+.footer-font {
+  padding: 30px;
+  font-family: Avenir, sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.padding-row5 {
+  padding-top: 70px;
+  padding-bottom: 80px;
+  padding-right: 50px;
+}
+
+.border-bottom {
+  border-bottom: 0.5px solid rgb(235 227 227);
+}
+
+.contact-button {
+  padding: 10px 18px;
+  border-radius: 6px;
+  margin-right: 15px;
+  border: none;
+}
+
+.button-abs {
+  position: absolute;
+}
+
+.row1-marg {
+  margin-right: 25px;
+}
+
+.get-started-button-padding {
+  padding-left: 50px;
+}
+
+.button-back-color {
+  background-color: rgb(41 68 100);
+}
+
+.white-text {
+  color: white;
+}
+
+.light-grey-text {
+  color: rgb(161 161 161);
+}
+
+.marg-sf {
+  padding-top: 20px;
+  margin-top: 20px;
+  max-width: 40%;
+}
+
+.get-started-button {
+  padding: 15px 50px;
+  border-radius: 7px;
+  border: none;
+  bottom: 50px;
+  left: 40px;
+}
+
+.get-started-button2 {
+  padding: 18px 50px;
+  border-radius: 6px;
+  border: none;
+}
+
+header {
+  padding: 15px;
+  margin-top: 15px;
+  border-bottom: solid;
+  border-bottom: rgb(161 161 161);
+  border: 2px;
+  padding-left: 50px;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.justify-content {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.hero-image {
+  background-image: url("images/hero.jpg");
+  background-position: center;
+  height: 530px;
+  background-size: cover;
+  width: 90%;
+  margin: 50px 1px 50px 50px;
+  position: relative;
+}
+
+.light-grey-background {
+  background-color: rgb(250 250 250);
+}
+
+.dark-grey-background {
+  background-color: rgb(111 112 109);
+}
+
+.dark-grey-text {
+  color: rgb(119 112 112);
+}
+
+.row-4-marg {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.row-3-margin {
+  padding-right: 30%;
+  padding-left: 30%;
+}
+
+.overlay {
+  background: linear-gradient(transparent, rgb(0 0 0 / 40.9%));
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.col-1 {
+  width: 15%;
+  margin-left: 5%;
+}
+
+.col-4 {
+  width: 40%;
+}
+
+.col-5 {
+  width: 50%;
+}
+
+.col-6 {
+  width: 60%;
+}
+
+.col-10 {
+  width: 100%;
+}

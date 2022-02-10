@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+button {
+  background-color: rgb(41 68 100);
+}
+
+header {
+  display: flex;
+  align-items: right;
+}
+
+.white-text {
+  color: white;
+}
+
+.light-grey-text {
+  font: rgb(174 174 174);
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.padding-bottom {
+  padding-bottom: 50px;
+}
