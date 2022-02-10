@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: lightgoldenrodyellow;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20%;
+}
+
+.container.light {
+  margin: auto;
+  width: 1000px;
+  background-color: rgb(254 249 241);
+}
+
+.container.dark {
+  margin: auto;
+  width: 1000px;
+  background-color: black;
+}
+
+.circle-button.light {
+  width: 400px;
+  height: 400px;
+  background: rgb(251 235 133);
+  border-radius: 50%;
+}
+
+.circle-button.dark {
+  width: 400px;
+  height: 400px;
+  background: grey;
+  border-radius: 50%;
+}
