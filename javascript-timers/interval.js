@@ -1,14 +1,13 @@
 
 var intervalText = document.querySelector('.countdown-display');
 var counter = 4;
+var intervalId = setInterval(setCountdown, 1000);
 
-var theCountdown = function () {
+function setCountdown() {
   intervalText.textContent = counter;
   counter--;
   if (counter < 0) {
     intervalText.textContent = '~Earth Beeeeelooowww Ussss~';
-    clearInterval(theCountdown);
+    clearInterval(intervalId);
   }
-};
-
-setInterval(theCountdown, 1000);
+}
