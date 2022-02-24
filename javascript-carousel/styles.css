@@ -1,0 +1,54 @@
+.container {
+  max-width: 100%;
+}
+
+.row {
+  display: flex;
+}
+
+body {
+  border: 3px solid black;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.column-fourth {
+  flex-basis: 25%;
+}
+
+.column-half {
+  flex-basis: 50%;
+}
+
+.container-box {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.circles {
+  margin-bottom: 5%;
+  margin-left: 35%;
+  margin-right: 35%;
+}
+
+.space-evenly {
+  justify-content: space-evenly;
+}
+
+.hidden {
+  display: none;
+}
+
+.view {
+  max-width: 100%;
+}
